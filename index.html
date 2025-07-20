@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tradutor Instantâneo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌍 Tradutor Instantâneo</h1>
+
+  <form id="translate-form">
+    <textarea id="text" placeholder="Digite o texto para traduzir..."></textarea>
+
+    <select id="language">
+      <option value="en">Inglês</option>
+      <option value="es">Espanhol</option>
+      <option value="fr">Francês</option>
+      <option value="pt">Português</option>
+    </select>
+
+    <button type="submit">Traduzir</button>
+  </form>
+
+  <div id="output">
+    <h2>Tradução:</h2>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
